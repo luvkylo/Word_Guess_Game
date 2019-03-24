@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Guess Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Margarine" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="row">
+				<h1 class="col-12 text-center">
+					Word Guess Game
+				</h1>
+			</div>
+		</header>
+		<main>
+			<div class="h-100">
+				<div class="row justify-content-between score h-50">
+					<div class="col-4 text-center" id="used">
+						Used Letters:
+					</div>
+					<div class="col-4 text-center" id="guess">
+						# of Guess Remaining: <br> 30
+					</div>
+				</div>
+				<div class="row play">
+					<div class="col-12 text-center" id="text">
+						
+					</div>
+				</div>
+				<div class="row play">
+					<div class="col-12 text-center" id="begin">
+						Type any key to begin
+					</div>
+				</div>
+				<div class="row play">
+					<div class="col-12 text-center" id="info">
+						<h3>Type any key to start again.</h3>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="row">
+				<div class="col-12 text-center">
+					Copyrighted &copy;
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+</html>

@@ -1,0 +1,33 @@
+body {
+	height: 100vh;
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/wallpapers/School-Chalkboard-Backgrounds.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Margarine', cursive;
+	color: white;
+}
+
+.container {
+	height: 80%;
+}
+
+header {
+	padding-top: 5%;
+}
+
+main {
+	height: 90%;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.play {
+	font-size: 3em;
+}
+
+.score {
+	font-size: 1.5em;
+}
